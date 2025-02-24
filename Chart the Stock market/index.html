@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chart the Stock Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+  <link href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png" rel="icon" type="image/png">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex center">
+  <div>
+    <h1>Chart the Stock Market</h1>
+    <canvas id="stockCanvas" width="800" height="400"></canvas>
+    <input id="symbolInput" type="text" placeholder="Enter stock symbol" aria-label="Stock Symbol">
+    <button class="btn" id="getStockBtn" aria-label="Get Stock">Get Stock</button>
+    <button class="btn" id="removeStockBtn" aria-label="Remove Stock">Remove Stock</button>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
